@@ -1,0 +1,20 @@
+title,authors,abstract,pdf_link,arxiv_link,github_links,task,methods
+Papers with Code - Segment Anything,N/A,"We introduce the Segment Anything (SA) project: a new task, model, and dataset for image segmentation. Using our efficient model in a data collection loop, we built the largest segmentation dataset to date (by far), with over 1 billion masks on 11M licensed and privacy respecting images. The model is designed and trained to be promptable, so it can transfer zero-shot to new image distributions and tasks. We evaluate its capabilities on numerous tasks and find that its zero-shot performance is impressive -- often competitive with or even superior to prior fully supervised results. We are releasing the Segment Anything Model (SAM) and corresponding dataset (SA-1B) of 1B masks and 11M images at https://segment-anything.com to foster research into foundation models for computer vision.
+        
+
+
+PDF
+
+
+
+Abstract
+
+
+
+
+                             ICCV 2023 PDF
+                         
+
+
+
+ICCV 2023 Abstract",https://arxiv.org/pdf/2304.02643v1.pdf,https://arxiv.org/abs/2304.02643v1,"['https://github.com/facebookresearch/segment-anything', 'https://github.com/huggingface/transformers', 'https://github.com/IDEA-Research/Grounded-Segment-Anything', 'https://github.com/kornia/kornia', 'https://github.com/PaddlePaddle/PaddleSeg', 'https://github.com/geekyutao/inpaint-anything', 'https://github.com/ux-decoder/segment-everything-everywhere-all-at-once', 'https://github.com/syscv/sam-hq', 'https://github.com/umass-foundation-model/3d-llm', 'https://github.com/computational-cell-analytics/micro-sam', 'https://github.com/aim-uofa/matcher', 'https://github.com/xinghaochen/tinysam', 'https://github.com/vitae-transformer/samrs', 'https://github.com/martinsbruveris/tensorflow-image-models', 'https://github.com/camenduru/grounded-segment-anything-colab', 'https://github.com/li-qingyun/sam-mmrotate', 'https://github.com/ksugar/samapi', 'https://github.com/harrytea/detect-anyshadow', 'https://github.com/arnab39/equiadapt', 'https://github.com/lancasterli/refsam', 'https://github.com/computational-cell-analytics/patho-sam', 'https://github.com/coradlut/bi-jros', 'https://github.com/sqhuang0103/samreg', 'https://github.com/computational-cell-analytics/medico-sam', 'https://github.com/computational-cell-analytics/peft-sam', 'https://github.com/chwilms/sos', 'https://github.com/vineet2104/hifics', 'https://github.com/philippendres/CellPilot', 'https://github.com/ZE-WEN/DendriteSAM', 'https://github.com/pwc-1/Paper-10/tree/main/sam', 'https://github.com/2023-MindSpore-4/Code12/tree/main/MindFormers/sam', 'https://github.com/HibaKob/MicroBundlePillarTrack']",Zero-Shot Instance Segmentation,['SAM']

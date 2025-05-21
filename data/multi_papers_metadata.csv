@@ -1,0 +1,222 @@
+title,authors,abstract,pdf_link,arxiv_link,github_links,task,methods,url
+Papers with Code - Deep Residual Learning for Image Recognition,N/A,"Deeper neural networks are more difficult to train. We present a residual
+learning framework to ease the training of networks that are substantially
+deeper than those used previously. We explicitly reformulate the layers as
+learning residual functions with reference to the layer inputs, instead of
+learning unreferenced functions. We provide comprehensive empirical evidence
+showing that these residual networks are easier to optimize, and can gain
+accuracy from considerably increased depth. On the ImageNet dataset we evaluate
+residual nets with a depth of up to 152 layers---8x deeper than VGG nets but
+still having lower complexity. An ensemble of these residual nets achieves
+3.57% error on the ImageNet test set. This result won the 1st place on the
+ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100
+and 1000 layers.
+  The depth of representations is of central importance for many visual
+recognition tasks. Solely due to our extremely deep representations, we obtain
+a 28% relative improvement on the COCO object detection dataset. Deep residual
+nets are foundations of our submissions to ILSVRC & COCO 2015 competitions,
+where we also won the 1st places on the tasks of ImageNet detection, ImageNet
+localization, COCO detection, and COCO segmentation.
+        
+
+
+PDF
+
+
+
+Abstract
+
+
+
+
+                             CVPR 2016 PDF
+                         
+
+
+
+CVPR 2016 Abstract",https://arxiv.org/pdf/1512.03385v1.pdf,https://arxiv.org/abs/1512.03385v1,"['https://github.com/KaimingHe/resnet-1k-layers', 'https://github.com/tensorflow/models', 'https://github.com/tensorflow/models/tree/master/research/deeplab', 'https://github.com/tensorflow/models/tree/master/research/slim', 'https://github.com/labmlai/annotated_deep_learning_paper_implementations', 'https://github.com/ultralytics/yolov5', 'https://github.com/fastai/fastai', 'https://github.com/JaidedAI/EasyOCR', 'https://github.com/pytorch/vision', 'https://github.com/PaddlePaddle/PaddleDetection', 'https://github.com/fchollet/deep-learning-models', 'https://github.com/KaimingHe/deep-residual-networks', 'https://github.com/google/flax/tree/master/examples/imagenet', 'https://github.com/open-mmlab/mmpose', 'https://github.com/tensorpack/tensorpack/tree/master/examples/ResNet', 'https://github.com/tensorpack/tensorpack', 'https://github.com/yahoo/open_nsfw', 'https://github.com/PaddlePaddle/PaddleClas', 'https://github.com/Deci-AI/super-gradients', 'https://github.com/open-mmlab/mmclassification', 'https://github.com/towhee-io/towhee', 'https://github.com/deepmind/dm-haiku', 'https://github.com/osmr/imgclsmob', 'https://github.com/facebookarchive/fb.resnet.torch', 'https://github.com/facebook/fb.resnet.torch', 'https://github.com/facebookresearch/pycls', 'https://github.com/qubvel/efficientnet', 'https://github.com/keras-team/keras-applications', 'https://github.com/alibaba/EasyCV', 'https://github.com/ry/tensorflow-resnet', 'https://github.com/deepmodeling/deepmd-kit', 'https://github.com/facebookresearch/DomainBed', 'https://github.com/yoshitomo-matsubara/torchdistill', 'https://github.com/raghakot/keras-resnet', 'https://github.com/akamaster/pytorch_resnet_cifar10', 'https://github.com/glouppe/info8010-deep-learning', 'https://github.com/bentrevett/pytorch-image-classification', 'https://github.com/facebookresearch/hiera', 'https://github.com/HHTseng/video-classification', 'https://github.com/NVIDIA/retinanet-examples', 'https://github.com/wenxinxu/resnet-in-tensorflow', 'https://github.com/wenxinxu/resnet_in_tensorflow', 'https://github.com/MishaLaskin/vqvae', 'https://github.com/MishaLaskin/vq-vae', 'https://github.com/researchmm/SiamDW', 'https://github.com/sgrvinod/a-pytorch-tutorial-to-super-resolution', 'https://github.com/D-X-Y/ResNeXt-DenseNet', 'https://github.com/hustvl/sparseinst', 'https://github.com/gcr/torch-residual-networks', 'https://github.com/xiaoyufenfei/LEDNet', 'https://github.com/kyle-dorman/bayesian-neural-network-blogpost', 'https://github.com/hsd1503/resnet1d', 'https://github.com/yxgeee/MMT', 'https://github.com/andreasveit/densenet-pytorch', 'https://github.com/vietanhdev/open-adas', 'https://github.com/jiweibo/imagenet', 'https://github.com/felixgwu/img_classification_pk_pytorch', 'https://github.com/mindspore-ai/models/tree/master/research/cv/FaceAttribute', 'https://github.com/DeepMark/deepmark', 'https://github.com/itijyou/ademxapp', 'https://github.com/calmisential/TensorFlow2.0_ResNet', 'https://github.com/MegEngine/Models/tree/master/official/vision/classification/resnet', 'https://github.com/j3soon/arxiv-utils', 'https://github.com/mahmoodlab/hest', 'https://github.com/peteryuX/arcface-tf2', 'https://github.com/kwotsin/TensorFlow-ENet', 'https://github.com/mindlab-ai/mindcv/blob/main/mindcv/models/resnet.py', 'https://github.com/mindspore-ecosystem/mindcv/blob/main/mindcv/models/resnet.py', 'https://github.com/hsinyilin19/resnetvae', 'https://github.com/haonanguo/remote-sensing-chatgpt', 'https://github.com/mindspore-ai/models/tree/master/official/cv/resnet', 'https://github.com/Mayurji/Image-Classification-PyTorch', 'https://github.com/FrancescoSaverioZuppichini/ResNet', 'https://github.com/EricAlcaide/MiniFold', 'https://github.com/GKalliatakis/Keras-VGG16-places365', 'https://github.com/OlafenwaMoses/IdenProf', 'https://github.com/wondonghyeon/protest-detection-violence-estimation', 'https://github.com/SJTU-Thinklab-Det/r3det-on-mmdetection', 'https://github.com/shijianjian/efficientnet-pytorch-3d', 'https://github.com/ndb796/pytorch-adversarial-training-cifar', 'https://github.com/facebookresearch/stochastic_gradient_push', 'https://github.com/paperswithcode/paperswithcode-client', 'https://github.com/chrhenning/hypercl', 'https://github.com/OlafenwaMoses/Traffic-Net', 'https://github.com/mindspore-ai/models/tree/master/official/cv/resnet_thor', 'https://github.com/hongyi-zhang/Fixup', 'https://github.com/rtanno21609/AdaptiveNeuralTrees', 'https://github.com/YudeWang/UNet-Satellite-Image-Segmentation', 'https://github.com/deepquestai/fire-smoke-dataset', 'https://github.com/amazon-science/long-short-term-transformer', 'https://github.com/amazon-research/long-short-term-transformer', 'https://github.com/alecwangcq/KFAC-Pytorch', 'https://github.com/makatx/YOLO_ResNet', 'https://github.com/alrojo/lasagne_residual_network', 'https://github.com/alexsax/midlevel-reps', 'https://github.com/JayPatwardhan/ResNet-PyTorch', 'https://github.com/marload/ConvNets-TensorFlow2', 'https://github.com/alvarobartt/serving-pytorch-models', 'https://github.com/mingxingtan/efficientnet', 'https://github.com/sayakpaul/Adaptive-Gradient-Clipping', 'https://github.com/yakhyo/gaze-estimation', 'https://github.com/kamanphoebe/motiondetection', 'https://github.com/canturan10/satellighte', 'https://github.com/masoudnick/brain-tumor-mri-classification', 'https://github.com/mhagiwara/nanigonet', 'https://github.com/hycis/TensorGraph', 'https://github.com/oskyhn/CNNs-Without-Borders', 'https://github.com/mindspore-ai/models/tree/master/official/cv/resnet50_quant', 'https://github.com/dnddnjs/pytorch-cifar10', 'https://github.com/Masao-Taketani/FOTS_OCR', 'https://github.com/ChangweiZhang/Awesome-WindowsML-ONNX-Models', 'https://github.com/OlafenwaMoses/Action-Net', 'https://github.com/priyavrat-misra/xrays-and-gradcam', 'https://github.com/lixixibj/tsImage-forecasting', 'https://github.com/lixixibj/forecasting-with-time-series-imaging', 'https://github.com/MarkHershey/arxiv-dl', 'https://github.com/Sakib1263/ResNet-Model-Builder-KERAS', 'https://github.com/Sakib1263/ResNet-Model-Builder-Tensorflow-Keras', 'https://github.com/Lornatang/ResNet-PyTorch', 'https://github.com/Sakib1263/ResNet-ResNetv2-ResNeXt-1D-2D-Tensorflow-Keras', 'https://github.com/Sakib1263/1DResNet-Builder-KERAS', 'https://github.com/Sakib1263/ResNet1D-Model-Builder-KERAS', 'https://github.com/Sakib1263/1DResNet-KERAS', 'https://github.com/Sakib1263/ResNet-ResNeXt-1D-2D-Tensorflow-Keras', 'https://github.com/CVxTz/face_age_gender', 'https://github.com/yakhyo/head-pose-estimation', 'https://github.com/ViswanathaReddyGajjala/EfficientNet-RetinaNet', 'https://github.com/deontaepharr/Residual-Attention-Network', 'https://github.com/uclaml/Padam', 'https://github.com/thughost2/Padam', 'https://github.com/kmzzhang/nbi', 'https://github.com/barmayo/spatial_attention', 'https://github.com/vlievin/Unet', 'https://github.com/km1414/CNN-models', 'https://github.com/waterdisappear/nudt4mstar', 'https://github.com/Graylab/deepH3-distances-orientations', 'https://github.com/bethgelab/InDomainGeneralizationBenchmark', 'https://github.com/megvii-research/basecls/tree/main/zoo/public/resnet', 'https://github.com/k-miran/hear', 'https://github.com/aby2s/sharpmask', 'https://github.com/hongkunsun/paratranscnn', 'https://github.com/sanghyun-son/clustering-kernels', 'https://github.com/KellerJordan/ResNet-PyTorch-CIFAR10', 'https://github.com/mobilesec/arcface-tensorflowlite', 'https://github.com/EstherBear/implementation-of-pruning-filters', 'https://github.com/winycg/MCL-OKD', 'https://github.com/anguyen8/sam', 'https://github.com/the-super-toys/glimpse-models', 'https://github.com/amogh7joshi/engagement-detection', 'https://github.com/amogh7joshi/fer', 'https://github.com/cornell-zhang/allo-pldi24-artifact', 'https://github.com/pszemraj/BoulderAreaDetector', 'https://github.com/yakhyo/retinaface-pytorch', 'https://github.com/DaikiTanak/manifold_mixup', 'https://github.com/liuyao12/ConvNets-PDE-perspective', 'https://github.com/johnnylu305/resnet-50-101-152', 'https://github.com/ycao5602/SAL', 'https://github.com/swasun/VQ-VAE-images', 'https://github.com/yudhisteer/Face-Recognition-with-Masks', 'https://github.com/ljy-hy/mentormix_pytorch', 'https://github.com/PPPrior/i3d-pytorch', 'https://github.com/seyrankhademi/ResNet_CIFAR10', 'https://github.com/usnistgov/image-regression-resnet50', 'https://github.com/JeyesHan/P2LR', 'https://github.com/mbsariyildiz/resnet-pytorch', 'https://github.com/hysts/pytorch_resnet', 'https://github.com/lab-midas/med_segmentation', 'https://github.com/Halesu/4th-ML100Days', 'https://github.com/mindspore-courses/External-Attention-MindSpore/blob/main/model/backbone/resnet.py', 'https://github.com/IBM/NeuronAlignment', 'https://github.com/koshian2/ResNet-MultipleFramework', 'https://github.com/anibali/dsnt-pose2d', 'https://github.com/Sakib1263/DenseNet-1D-2D-Tensorflow-Keras', 'https://github.com/DableUTeeF/keras-efficientnet', 'https://github.com/matakshay/Neural_Image_Caption_Generator', 'https://github.com/EdenMelaku/Transfer-Learning-Pytorch-Implementation', 'https://github.com/EdenMelaku/Transfer-Learning-Pytorch-Implmentation', 'https://github.com/dmizr/phuber', 'https://github.com/anoushkrit/Knowledge', 'https://github.com/vita-epfl/rock-pytorch', 'https://github.com/rajneeshaggarwal/google-efficientnet', 'https://github.com/isheunesutembo/TB-Computer-Aided-Diagnosis-Using-Deep-Learning', 'https://github.com/hysts/pytorch_resnet_preact', 'https://github.com/fL0n9/SKFAC-MindSpore', 'https://github.com/chayanchatterjee/gw-skylocator', 'https://github.com/rahul-t-p/ASVspoof-2019', 'https://github.com/mindlab-ai/mindcv/blob/main/examples/train_cifar_dynamic.py', 'https://github.com/chayanchatterjee/cbc-skynet', 'https://github.com/JONGSKY/paper', 'https://github.com/jung-jun-uk/mixface', 'https://github.com/ThanasisMattas/smartflow', 'https://github.com/vineeths96/Gradient-Compression', 'https://github.com/shtnkgm/VisionFrameworkSample', 'https://github.com/Thehunk1206/Covid-19-covidcnn', 'https://github.com/moddy2024/resnet-9', 'https://github.com/Thehunk1206/Covid-19-chest-X-ray', 'https://github.com/ajithvallabai/getsetgo_keras-beginner', 'https://github.com/varshaneya/Res-SE-Net', 'https://github.com/greatsharma/DeepLearning-Papers-Implementation', 'https://github.com/asprenger/keras_fc_densenet', 'https://github.com/abaietto/neural_ode_classification', 'https://github.com/wuqiyao20160118/mini_project-for-CIFAR10', 'https://github.com/c1ph3rr/Deep-Residual-Learning-for-Image-Recognition', 'https://github.com/kwantommy/fgvc6-kaggle-cassava-classification', 'https://github.com/angelvillar96/FaceEmoji', 'https://github.com/MrRiahi/Convolutional-Neural-Networks-Tensorflow', 'https://github.com/usnistgov/image-classification-resnet50', 'https://github.com/akhadangi/EM-net', 'https://github.com/DogeZen/resnet2onnx2tensorrt', 'https://github.com/iArunava/ResNet', 'https://github.com/maxwelltsai/DeepGalaxy', 'https://github.com/Duplums/bhb10k-dl-benchmark', 'https://github.com/shoji9x9/CIFAR-10-By-small-ResNet', 'https://github.com/robertofranceschi/Image-classification-on-Caltech101-using-CNNs', 'https://github.com/xufanxiong/classification-of-caltech-256', 'https://github.com/KarimaCha/CNN_Trust_Prediction', 'https://github.com/realmichaelye/Skin-Lesions-Classifier-ResNet50', 'https://github.com/saikrishnadas/ResNet-Pytorch', 'https://github.com/xiuyu0000/papers_with_examples/tree/main/cancer_detection_demo', 'https://github.com/enzomuschik/distilfnd', 'https://github.com/fabiofumarola/ultrayolo', 'https://github.com/Punakshi/Deep-Residual-Learning-for-Image-Recognition-Implementation', 'https://github.com/shoji9x9/Fashion-MNIST-By-ResNet', 'https://github.com/tanjeffreyz/deep-residual-learning', 'https://github.com/mindspore-courses/heads-on-mindspore/tree/main/1-best-practice/models', 'https://github.com/jimheaton/Ultra96_ML_Embedded_Workshop', 'https://github.com/vineeths96/heterogeneous-systems', 'https://github.com/sumitkutty/Anti-Spoof-Face-Recognition', 'https://github.com/MS-Mind/MS-Code-02/tree/main/configs/resnet', 'https://github.com/mdda/deep-learning-models', 'https://github.com/qubvel/resnet_152', 'https://github.com/gpleiss/limits_of_large_width', 'https://github.com/jtcass01/SIMON', 'https://github.com/Baichenjia/Resnet', 'https://github.com/MichaelWangfc/distributed-tensorflow-resnet', 'https://github.com/patientzero/timage-icann2019', 'https://github.com/aurelien-peden/Deep-Learning-paper-implementations', 'https://github.com/magnificent1208/r3det-on-mmdetection', 'https://github.com/SarthakGarg13/OTOMYCOSIS', 'https://github.com/xinkuansong/modified-resnet-acc-0.9638-10.7M-parameters', 'https://github.com/IMvision12/keras-vision-models', 'https://github.com/jameswang287/Car-Detection', 'https://github.com/serre-lab/gala_tpu', 'https://github.com/cjfghk5697/Pytorch-Research-Paper-Implementations', 'https://github.com/ollewelin/libtorch-GPU-CNN-test-MNIST-with-Batchnorm', 'https://github.com/Anderies/stochastic-constant-pruninglayers', 'https://github.com/Glp91/fire-detection', 'https://github.com/uw-hai/limeade', 'https://github.com/pikkaay/efficientnet_gpu', 'https://github.com/anjandeepsahni/face_classification', 'https://github.com/shoaibahmed/CrossLayerPooling', 'https://github.com/arahosu/musicslots', 'https://github.com/sungyoonahn/Hint-based-image-colorization-using-Attention-Unet', 'https://github.com/nicolalandro/Padam', 'https://github.com/danielamassiceti/CCA-visualdialogue', 'https://github.com/b8goal/PIRL-Residual-network', 'https://github.com/AngusG/bn-advex-zhang-fixup', 'https://github.com/alalagong/LEDNet', 'https://github.com/brycexu/MR-Residual-Net', 'https://github.com/Bao-Jiarong/ResNet', 'https://github.com/anjandeepsahni/face_recognition', 'https://github.com/sunlizhuang/YOLOv1-PaddlePaddle', 'https://github.com/avocardio/resnet_vs_convnext', 'https://github.com/code-implementation1/Code7/tree/main/resnetv2', 'https://github.com/sunnysoni97/single_image_fl', 'https://github.com/yangorwell/NGPlus', 'https://github.com/godwinrayanc/YOLOv1-Pytorch', 'https://github.com/zjZSTU/ResNet', 'https://github.com/interestingzhuo/foodretreival', 'https://github.com/vinod377/STN-OCR', 'https://github.com/vinod377/STN-OCR-Tensorflow', 'https://github.com/dead-mazai/avia-missing-airplanes', 'https://github.com/smc-x/ms-resnetv2', 'https://github.com/rahulchaurasiya1/cautious-waddle', 'https://github.com/sidify/resnet_focal_loss', 'https://github.com/2023-MindSpore-1/ms-code-217/tree/main/ssd_resnet_34', 'https://github.com/kclip/localized-adaptive-risk-control', 'https://github.com/andrijdavid/clinical-brain-interface-2020', 'https://github.com/RobotMobile/cv-deep-learning-paper-review', 'https://github.com/ls-da3m0ns/Short-ResNet', 'https://github.com/2023-MindSpore-4/Code-5/tree/main/lresnet100e_ir', 'https://github.com/sebsquire/FlowersRecognition_keras', 'https://github.com/CocoSungMin/Gachon_SW_Colorization_Contest', 'https://github.com/mindspore-courses/MindSpore-classification', 'https://github.com/hershd23/ObjectLocalizer', 'https://github.com/musifahamran/FYP', 'https://github.com/fengredrum/cnn-xla', 'https://github.com/sebsquire/Dogs-and-cats-image-classification-CNN', 'https://github.com/2023-MindSpore-1/ms-code-217/tree/main/ssd_resnet34', 'https://github.com/CellSMB/EM-net', 'https://github.com/James-Gilbert-/medical-deep-learning', 'https://github.com/imkoushik22/Walmart-Hackathon', 'https://github.com/Rakshit-Shetty/Resnet-Implementation', 'https://github.com/kun-woo-park/Deeplearning_project_STL_10', 'https://github.com/James-Gilbert-/pneumonia-detection', 'https://github.com/xhlulu/arxiv-assistant', 'https://github.com/joeynavarro/facial_expression_classification', 'https://github.com/alisha17/benchmarks', 'https://github.com/konstantinos-p/image_classification_SOTA', 'https://github.com/xcmyz/Face_Binary_Classfication', 'https://github.com/julik43/IIMAS-USCS', 'https://github.com/leemathew1998/RG', 'https://github.com/nsom/VGG16', 'https://github.com/JesonZhang822/Dogs-VS-Cats-Project', 'https://github.com/CodeChefVIT/VOID', 'https://github.com/phillity/BioCapsule', 'https://github.com/xcmyz/FaceDetection', 'https://github.com/caojoshua/Plastic-Recyclability', 'https://github.com/xcmyz/Face-Binary-Classification', 'https://github.com/yangboz/TransferLearning4Dentist', 'https://github.com/bclwan/MRI_Brain_Segmentation', 'https://github.com/ashishpatel26/BrainMRI-Segmentation-Keras', 'https://github.com/VamsiKrishna1211/gender_age-detection', 'https://github.com/JanMarcelKezmann/Residual-Network-Architectures', 'https://github.com/aman-garg0001/fruit-classifier', 'https://github.com/mminamina/Transfer_Learning_NaimishNet---Keypoints_Detection', 'https://github.com/wasilone11/ICPR-RIP-2024', 'https://github.com/mnguyen0226/image-augmentation-dnn-performance', 'https://github.com/SANKHA1/Vehicle-Detection', 'https://github.com/saloni1998/Cifar-10', 'https://github.com/Burf/ResNet-Tensorflow2', 'https://github.com/84436/ASM-Project-01', 'https://github.com/AyushAniket/ResNET-and-various-normalizations', 'https://github.com/CryptoSalamander/pytorch_paper_implementation', 'https://github.com/gatheluck/Stronghold', 'https://github.com/cameronchoi/r3det-copy', 'https://github.com/alililia/ascend_SE-Net', 'https://github.com/kingcong/gpu_FaceAttribute', 'https://github.com/VhalPurohit/290s', 'https://github.com/northeastsquare/effficientnet', 'https://github.com/alililia/ms_extend/tree/main/gpu_resnet', 'https://github.com/TowardHumanizedInteraction/TripletFace', 'https://github.com/xiuyu0000/vision/blob/main/mindvision/classification/models/resnet.py', 'https://github.com/xiuyu0000/tutorials/tree/main/resnet', 'https://github.com/pawelbeza/ClothesDetectorModel', 'https://github.com/mminamina/Transfer_Learning_ResNet18---Keypoints_Detection', 'https://github.com/Jeongyun-Lee-0423/Classification', 'https://github.com/sammyamajumdar/ResNet50', 'https://github.com/LuigiRussoDev/Covid19Detection', 'https://github.com/Mind23-2/MindCode-101/tree/main/lresnet100e_ir', 'https://github.com/akommini/Spoken-Numeric-Digit-detection', 'https://github.com/demul/ResidualNet', 'https://github.com/KellyHwong/rethinking_generalization', 'https://github.com/NASA-NeMO-Net/NeMO-Net', 'https://github.com/ntrin/CIFAR_10_ML', 'https://github.com/axmoyal/Steganalysis-with-CNN', 'https://github.com/krishnakarthi/COVID-19_Prediction', 'https://github.com/alex-f1tor/Image-Caption', 'https://github.com/MioChiu/ResNet_TensorFlow', 'https://github.com/vayuvegula/kerasModels', 'https://github.com/VinayBN8997/ResNet-CIFAR10', 'https://github.com/malin9402/2020-0221', 'https://github.com/aniket-patra-1998/FLOWER_RECOGNITION', 'https://github.com/kishanAk21/Skin-Cancer-Image-Classification', 'https://github.com/2023-MindSpore-4/Code10/tree/main/ResNet', 'https://github.com/Mind23-2/MindCode-3/tree/main/lresnet100e_ir', 'https://github.com/2024-MindSpore-1/Code7/tree/main/centernet_resnet101', 'https://github.com/2024-MindSpore-1/Code7/tree/main/centernet_resnet50_v1', 'https://github.com/mabhay3420/Deep-Into-CNN', 'https://github.com/swetak20/Deep_into_CNNs', 'https://github.com/xslidi/EfficientNets_ddl_apex', 'https://github.com/yakhyo/EfficientNet-PyTorch', 'https://github.com/tiagoCuervo/JapaNet', 'https://github.com/amogh7joshi/plant-health-detection', 'https://github.com/HarmanDotpy/Normalizations-in-Deep-Learning', 'https://github.com/MindCode-4/code-4/tree/main/rembert', 'https://github.com/fabxy/accessibilityCV', 'https://github.com/nsom/Basic-Models', 'https://github.com/2023-MindSpore-4/Code11/tree/main/ssd_resnet_34', 'https://github.com/kaseris/ILSVRCPlus', 'https://github.com/2023-MindSpore-1/ms-code-201', 'https://github.com/2023-MindSpore-1/ms-code-213/tree/main/FaceAttribute', 'https://github.com/2023-MindSpore-1/ms-code-18/tree/main/lresnet100e_ir', 'https://github.com/2023-MindSpore-1/ms-code-216/tree/main/resnet50_adv_pruning', 'https://github.com/dssbxx/k_labels_resnet50', 'https://github.com/hx19940102/Image-Segmentation-based-on-FCN', 'https://github.com/yashclone999/ResNet_MODEL', 'https://github.com/kiranu1024/deep-learning', 'https://github.com/oxygen0605/ImageClassification', 'https://github.com/souravverma94/pre_trained_imgclassifier_dogBreeds', 'https://github.com/MindSpore-paper-code-3/code3/tree/main/FaceAttribute', 'https://github.com/astoycos/Mini_Project2', 'https://github.com/gundeep15/SCD_AI_Project', 'https://github.com/ewinata/CIFAR-10', 'https://github.com/jday96314/Kuzushiji', 'https://github.com/MindSpore-paper-code-2/code3/tree/main/ssd_resnet34', 'https://github.com/MindSpore-paper-code-3/code5/tree/main/resnet50_adv_pruning', 'https://github.com/JoeTracey/Portfolio', 'https://github.com/SiHaoShen/Convolutional-Neural-Networks', 'https://github.com/johngear/eecs504', 'https://github.com/MindSpore-paper-code-3/code7/tree/main/FaceAttribute', 'https://github.com/code-implementation1/Code3/tree/main/FaceAttribute', 'https://github.com/syiin/resnet_cancer_detection', 'https://github.com/akar5h/Image-Recognition-with-CNN-and-Transfer-Learning-ResNet101', 'https://github.com/facundoq/transformational_measures_experiments', 'https://github.com/yibeiou/Advanced_Business_Intelligence', 'https://github.com/code-implementation1/Code5/tree/main/lresnet100e_ir', 'https://github.com/lxy000719/ResNet-50-pneumonia-classification', 'https://github.com/linainsaf/RESNET50_PNEUMONIA_DETECTION', 'https://github.com/maciejdomagala/DLWP_notes', 'https://github.com/2023-MindSpore-4/Code7/tree/main/ssd_resnet34', 'https://github.com/Rohed/ml-1', 'https://github.com/tcheung99/ResNet_MiniProject', 'https://github.com/sangHa0411/CIFAR100', 'https://github.com/sangHa0411/ResNetCIFAR100', 'https://github.com/lixihan/Resnet', 'https://github.com/eric-erki/IdenProf', 'https://github.com/trachpro/arcface-tf2', 'https://github.com/jiajunhua/facebookresearch-Detectron', 'https://github.com/alexwdong/IncubatorCVProject', 'https://github.com/horse007666/ResNet', 'https://github.com/JContro/pytorch_projects', 'https://github.com/UnofficialJuliaMirror/DeepMark-deepmark', 'https://github.com/3P2S/arcface', 'https://github.com/Olayemiy/Image-Classification-With-Resnet', 'https://github.com/adldotori/ResNet', 'https://github.com/parviagrawal/IdenProf', 'https://github.com/danielparada1/RL_SpaceInvaders', 'https://github.com/Vamshi399/CarND-Vehicle-Detection', 'https://github.com/cocopambag/ResNet', 'https://github.com/ariangc/breinchallenge', 'https://github.com/JHLee0513/Salt_detection_challenge', 'https://github.com/MiX-S/resnet_cifar10', 'https://github.com/CrossEntropy/Gesture-images-recognition-ResidualNetwork', 'https://github.com/Sangkwun/Resnet', 'https://github.com/SethEBaldwin/Resnet', 'https://github.com/vinay-EIP/EIP-session-5-assignment', 'https://github.com/seishinkikuchi/test', 'https://github.com/2023-MindSpore-4/Code7/tree/main/ssd_resnet_34', 'https://github.com/datoboat/Vehicle-Detection', 'https://github.com/CanshangD/ResNet_tensorflow2.0', 'https://github.com/lkeonwoo94/DL_cv-mdt_NVIDIA_Cert_Course_StudyPI', 'https://github.com/hz2538/iot_JennyGo', 'https://github.com/LuigiRussoDev/ResNets', 'https://github.com/boris127/vehicle-detection', 'https://github.com/mr-bulb/DL_basic_github', 'https://github.com/Zachdr1/CNNs', 'https://github.com/syiin/ann_cancer_detection', 'https://github.com/kishorkuttan/traffic_net', 'https://github.com/jvoynow/ConvNet-Architectures', 'https://github.com/LKLQQ/ssc_resnet50', 'https://github.com/manoranjan03/PaperImplementations', 'https://github.com/sanoyo/dl-model', 'https://github.com/kingcong/resnet', 'https://github.com/yangyucheng000/resnet_Ascend', 'https://github.com/suhas1999/Flip-kart-grid-challenge', 'https://github.com/alililia/ascend_FaceAttribute', 'https://github.com/paulblum00/ResNet-Recreation', 'https://github.com/vietdhoang/resnet-18', 'https://github.com/MindSpore-paper-code-3/code8/tree/main/FaceAttribute', 'https://github.com/kingcong/gpu_SE-Net', 'https://github.com/t0930198/backup', 'https://github.com/wangyuan249/Mymmt767', 'https://github.com/hustic/TinyImageSet', 'https://github.com/2023-MindSpore-4/Code9/tree/main/ResNet', 'https://github.com/rickyHong/tfRecord-Caltech256-repl2', 'https://github.com/abuchin/resnet_sign', 'https://github.com/vgangal101/resnet_models', 'https://github.com/CorneliusHsiao/FoodMethodGAN', 'https://github.com/ajaystar8/PDRUNet-PyTorch', 'https://github.com/MaxwellHeller/coffee_fraud_detection', 'https://github.com/ben-davidson-6/fixup', 'https://github.com/leemathew1998/GradientWeight', 'https://github.com/yw0nam/DenseNet', 'https://github.com/ankit-vaghela30/Google-landmark-prediction', 'https://github.com/rishabmallick/Sign-language-live-predictor', 'https://github.com/shao-chi/ImageCaption', 'https://github.com/duchaba/Norwegian_Blue_Parrot_k2fa_AI', 'https://github.com/UnofficialJuliaMirrorSnapshots/DeepMark-deepmark', 'https://github.com/mszpc/resnet18', 'https://github.com/seansoleyman/cifar10-resnet', 'https://github.com/mrzzy/np-dl-assign-1', 'https://github.com/Mind23-2/MindCode-70', 'https://github.com/2023-MindSpore-4/Code11/tree/main/resnet50_adv_pruning', 'https://github.com/Mind23-2/MindCode-67', 'https://github.com/cj-mclaughlin/segmentation_research', 'https://github.com/2023-MindSpore-1/ms-code-177', 'https://github.com/2023-MindSpore-4/Code11/tree/main/ssc_resnet50', 'https://github.com/2023-MindSpore-1/ms-code-22', 'https://github.com/KatherineBaq/NMA-CN2021-fMRI_vs_DNNs', 'https://github.com/bertrandlalo/deep_dog_breeds', 'https://github.com/2023-MindSpore-1/ms-code-208']",Semantic Segmentation,"['1x1 Convolution', 'Average Pooling', 'Batch Normalization', 'Bottleneck Residual Block', 'Convolution', 'dhf', 'Global Average Pooling', 'Kaiming Initialization', 'Max Pooling', 'Random Horizontal Flip', 'Random Resized Crop', 'ReLU', 'Residual Block', 'Residual Connection', 'ResNet', 'SGD with Momentum', 'Step Decay', 'Weight Decay']",
+"Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF793DACF65+75717]
+	GetHandleVerifier [0x00007FF793DACFC0+75808]
+	(No symbol) [0x00007FF793B78F9A]
+	(No symbol) [0x00007FF793B64E35]
+	(No symbol) [0x00007FF793B89DB4]
+	(No symbol) [0x00007FF793BFEE75]
+	(No symbol) [0x00007FF793C1ECC2]
+	(No symbol) [0x00007FF793BF7153]
+	(No symbol) [0x00007FF793BC0421]
+	(No symbol) [0x00007FF793BC11B3]
+	GetHandleVerifier [0x00007FF7940AD74D+3223469]
+	GetHandleVerifier [0x00007FF7940A7CF2+3200338]
+	GetHandleVerifier [0x00007FF7940C5B23+3322755]
+	GetHandleVerifier [0x00007FF793DC6A3A+180890]
+	GetHandleVerifier [0x00007FF793DCE13F+211359]
+	GetHandleVerifier [0x00007FF793DB52B4+109332]
+	GetHandleVerifier [0x00007FF793DB5462+109762]
+	GetHandleVerifier [0x00007FF793D9BA79+4825]
+	BaseThreadInitThunk [0x00007FF86DC67614+20]
+	RtlUserThreadStart [0x00007FF86EFC26B1+33]
+",,,,,,,,https://paperswithcode.com/paper/yolov3-an-incremental-improvement
+"Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF793DACF65+75717]
+	GetHandleVerifier [0x00007FF793DACFC0+75808]
+	(No symbol) [0x00007FF793B78DCC]
+	(No symbol) [0x00007FF793BBF54F]
+	(No symbol) [0x00007FF793BF7242]
+	(No symbol) [0x00007FF793BF1C63]
+	(No symbol) [0x00007FF793BF0D29]
+	(No symbol) [0x00007FF793B45A55]
+	GetHandleVerifier [0x00007FF7940AD74D+3223469]
+	GetHandleVerifier [0x00007FF7940A7CF2+3200338]
+	GetHandleVerifier [0x00007FF7940C5B23+3322755]
+	GetHandleVerifier [0x00007FF793DC6A3A+180890]
+	GetHandleVerifier [0x00007FF793DCE13F+211359]
+	(No symbol) [0x00007FF793B44AC8]
+	GetHandleVerifier [0x00007FF794196FF8+4180056]
+	BaseThreadInitThunk [0x00007FF86DC67614+20]
+	RtlUserThreadStart [0x00007FF86EFC26B1+33]
+",,,,,,,,https://paperswithcode.com/paper/focal-loss-for-dense-object-detection
+"Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF793DACF65+75717]
+	GetHandleVerifier [0x00007FF793DACFC0+75808]
+	(No symbol) [0x00007FF793B78DCC]
+	(No symbol) [0x00007FF793BBF54F]
+	(No symbol) [0x00007FF793BF7242]
+	(No symbol) [0x00007FF793BF1C63]
+	(No symbol) [0x00007FF793BF0D29]
+	(No symbol) [0x00007FF793B45A55]
+	GetHandleVerifier [0x00007FF7940AD74D+3223469]
+	GetHandleVerifier [0x00007FF7940A7CF2+3200338]
+	GetHandleVerifier [0x00007FF7940C5B23+3322755]
+	GetHandleVerifier [0x00007FF793DC6A3A+180890]
+	GetHandleVerifier [0x00007FF793DCE13F+211359]
+	(No symbol) [0x00007FF793B44AC8]
+	GetHandleVerifier [0x00007FF794196FF8+4180056]
+	BaseThreadInitThunk [0x00007FF86DC67614+20]
+	RtlUserThreadStart [0x00007FF86EFC26B1+33]
+",,,,,,,,https://paperswithcode.com/paper/yolo9000-better-faster-stronger
+"Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF793DACF65+75717]
+	GetHandleVerifier [0x00007FF793DACFC0+75808]
+	(No symbol) [0x00007FF793B78DCC]
+	(No symbol) [0x00007FF793BBF54F]
+	(No symbol) [0x00007FF793BF7242]
+	(No symbol) [0x00007FF793BF1C63]
+	(No symbol) [0x00007FF793BF0D29]
+	(No symbol) [0x00007FF793B45A55]
+	GetHandleVerifier [0x00007FF7940AD74D+3223469]
+	GetHandleVerifier [0x00007FF7940A7CF2+3200338]
+	GetHandleVerifier [0x00007FF7940C5B23+3322755]
+	GetHandleVerifier [0x00007FF793DC6A3A+180890]
+	GetHandleVerifier [0x00007FF793DCE13F+211359]
+	(No symbol) [0x00007FF793B44AC8]
+	GetHandleVerifier [0x00007FF794196FF8+4180056]
+	BaseThreadInitThunk [0x00007FF86DC67614+20]
+	RtlUserThreadStart [0x00007FF86EFC26B1+33]
+",,,,,,,,https://paperswithcode.com/paper/yolov4-optimal-speed-and-accuracy-of-object
+"Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF793DACF65+75717]
+	GetHandleVerifier [0x00007FF793DACFC0+75808]
+	(No symbol) [0x00007FF793B78DCC]
+	(No symbol) [0x00007FF793BBF54F]
+	(No symbol) [0x00007FF793BF7242]
+	(No symbol) [0x00007FF793BF1C63]
+	(No symbol) [0x00007FF793BF0D29]
+	(No symbol) [0x00007FF793B45A55]
+	GetHandleVerifier [0x00007FF7940AD74D+3223469]
+	GetHandleVerifier [0x00007FF7940A7CF2+3200338]
+	GetHandleVerifier [0x00007FF7940C5B23+3322755]
+	GetHandleVerifier [0x00007FF793DC6A3A+180890]
+	GetHandleVerifier [0x00007FF793DCE13F+211359]
+	(No symbol) [0x00007FF793B44AC8]
+	GetHandleVerifier [0x00007FF794196FF8+4180056]
+	BaseThreadInitThunk [0x00007FF86DC67614+20]
+	RtlUserThreadStart [0x00007FF86EFC26B1+33]
+",,,,,,,,https://paperswithcode.com/paper/ssd-single-shot-multibox-detector
+"Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF793DACF65+75717]
+	GetHandleVerifier [0x00007FF793DACFC0+75808]
+	(No symbol) [0x00007FF793B78DCC]
+	(No symbol) [0x00007FF793BBF54F]
+	(No symbol) [0x00007FF793BF7242]
+	(No symbol) [0x00007FF793BF1C63]
+	(No symbol) [0x00007FF793BF0D29]
+	(No symbol) [0x00007FF793B45A55]
+	GetHandleVerifier [0x00007FF7940AD74D+3223469]
+	GetHandleVerifier [0x00007FF7940A7CF2+3200338]
+	GetHandleVerifier [0x00007FF7940C5B23+3322755]
+	GetHandleVerifier [0x00007FF793DC6A3A+180890]
+	GetHandleVerifier [0x00007FF793DCE13F+211359]
+	(No symbol) [0x00007FF793B44AC8]
+	GetHandleVerifier [0x00007FF794196FF8+4180056]
+	BaseThreadInitThunk [0x00007FF86DC67614+20]
+	RtlUserThreadStart [0x00007FF86EFC26B1+33]
+",,,,,,,,https://paperswithcode.com/paper/faster-r-cnn-towards-real-time-object
+"Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF793DACF65+75717]
+	GetHandleVerifier [0x00007FF793DACFC0+75808]
+	(No symbol) [0x00007FF793B78DCC]
+	(No symbol) [0x00007FF793BBF54F]
+	(No symbol) [0x00007FF793BF7242]
+	(No symbol) [0x00007FF793BF1C63]
+	(No symbol) [0x00007FF793BF0D29]
+	(No symbol) [0x00007FF793B45A55]
+	GetHandleVerifier [0x00007FF7940AD74D+3223469]
+	GetHandleVerifier [0x00007FF7940A7CF2+3200338]
+	GetHandleVerifier [0x00007FF7940C5B23+3322755]
+	GetHandleVerifier [0x00007FF793DC6A3A+180890]
+	GetHandleVerifier [0x00007FF793DCE13F+211359]
+	(No symbol) [0x00007FF793B44AC8]
+	GetHandleVerifier [0x00007FF794196FF8+4180056]
+	BaseThreadInitThunk [0x00007FF86DC67614+20]
+	RtlUserThreadStart [0x00007FF86EFC26B1+33]
+",,,,,,,,https://paperswithcode.com/paper/mask-r-cnn
+"Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF793DACF65+75717]
+	GetHandleVerifier [0x00007FF793DACFC0+75808]
+	(No symbol) [0x00007FF793B78DCC]
+	(No symbol) [0x00007FF793BBF54F]
+	(No symbol) [0x00007FF793BF7242]
+	(No symbol) [0x00007FF793BF1C63]
+	(No symbol) [0x00007FF793BF0D29]
+	(No symbol) [0x00007FF793B45A55]
+	GetHandleVerifier [0x00007FF7940AD74D+3223469]
+	GetHandleVerifier [0x00007FF7940A7CF2+3200338]
+	GetHandleVerifier [0x00007FF7940C5B23+3322755]
+	GetHandleVerifier [0x00007FF793DC6A3A+180890]
+	GetHandleVerifier [0x00007FF793DCE13F+211359]
+	(No symbol) [0x00007FF793B44AC8]
+	GetHandleVerifier [0x00007FF794196FF8+4180056]
+	BaseThreadInitThunk [0x00007FF86DC67614+20]
+	RtlUserThreadStart [0x00007FF86EFC26B1+33]
+",,,,,,,,https://paperswithcode.com/paper/mobilenets-efficient-convolutional-neural
+"Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF793DACF65+75717]
+	GetHandleVerifier [0x00007FF793DACFC0+75808]
+	(No symbol) [0x00007FF793B78DCC]
+	(No symbol) [0x00007FF793BBF54F]
+	(No symbol) [0x00007FF793BF7242]
+	(No symbol) [0x00007FF793BF1C63]
+	(No symbol) [0x00007FF793BF0D29]
+	(No symbol) [0x00007FF793B45A55]
+	GetHandleVerifier [0x00007FF7940AD74D+3223469]
+	GetHandleVerifier [0x00007FF7940A7CF2+3200338]
+	GetHandleVerifier [0x00007FF7940C5B23+3322755]
+	GetHandleVerifier [0x00007FF793DC6A3A+180890]
+	GetHandleVerifier [0x00007FF793DCE13F+211359]
+	(No symbol) [0x00007FF793B44AC8]
+	GetHandleVerifier [0x00007FF794196FF8+4180056]
+	BaseThreadInitThunk [0x00007FF86DC67614+20]
+	RtlUserThreadStart [0x00007FF86EFC26B1+33]
+",,,,,,,,https://paperswithcode.com/paper/mobilenetv2-inverted-residuals-and-linear
